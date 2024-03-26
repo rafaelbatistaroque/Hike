@@ -15,6 +15,7 @@
 		534845492BB36A6F00089D82 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534845482BB36A6F00089D82 /* CustomBackgroundView.swift */; };
 		5348454C2BB36D8900089D82 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348454B2BB36D8900089D82 /* Colors.swift */; };
 		5348454F2BB3808700089D82 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348454E2BB3808700089D82 /* CustomButtonView.swift */; };
+		534845522BB3892100089D82 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534845512BB3892100089D82 /* GradientButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		534845482BB36A6F00089D82 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		5348454B2BB36D8900089D82 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		5348454E2BB3808700089D82 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		534845512BB3892100089D82 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +100,18 @@
 		5348454D2BB3711800089D82 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				534845502BB3890100089D82 /* Styles */,
 				5348454A2BB36D6200089D82 /* Extensions */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		534845502BB3890100089D82 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				534845512BB3892100089D82 /* GradientButtonStyle.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 				534845462BB3418A00089D82 /* CardView.swift in Sources */,
 				534845382BB33CF700089D82 /* HikeApp.swift in Sources */,
 				5348454F2BB3808700089D82 /* CustomButtonView.swift in Sources */,
+				534845522BB3892100089D82 /* GradientButtonStyle.swift in Sources */,
 				5348454C2BB36D8900089D82 /* Colors.swift in Sources */,
 				534845492BB36A6F00089D82 /* CustomBackgroundView.swift in Sources */,
 			);
